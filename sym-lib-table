@@ -1,0 +1,12 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2024-12-29_20-50-53")(type "KiCad")(uri "${KIPRJMOD}/library/esp32-wrover/2024-12-29_20-50-53.kicad_sym")(options "")(descr ""))
+  (lib (name "USB4105-GF-A")(type "KiCad")(uri "${KIPRJMOD}/library/usb4105/USB4105-GF-A.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-12-30_12-49-59")(type "KiCad")(uri "${KIPRJMOD}/library/mp2161/2024-12-30_12-49-59.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-12-30_13-16-27")(type "KiCad")(uri "${KIPRJMOD}/library/XC6802A42XMR/2024-12-30_13-16-27.kicad_sym")(options "")(descr ""))
+  (lib (name "32teeth - Conductive Buttons")(type "EAGLE")(uri "${KIPRJMOD}/library/conductive_buttons/32teeth - Conductive Buttons.lbr")(options "")(descr ""))
+  (lib (name "2024-12-30_19-32-13")(type "KiCad")(uri "${KIPRJMOD}/library/5051101592/2024-12-30_19-32-13.kicad_sym")(options "")(descr ""))
+  (lib (name "2024-12-31_10-08-42")(type "KiCad")(uri "${KIPRJMOD}/library/5051101892/2024-12-31_10-08-42.kicad_sym")(options "")(descr ""))
+  (lib (name "pam8304")(type "KiCad")(uri "${KIPRJMOD}/library/PAM8304/pam8304.kicad_sym")(options "")(descr ""))
+  (lib (name "sofng")(type "KiCad")(uri "${KIPRJMOD}/library/SOFNG/sofng.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,23 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,8.0.7*%
+%TF.CreationDate,2025-01-02T12:18:17+01:00*%
+%TF.ProjectId,redroid_go,72656472-6f69-4645-9f67-6f2e6b696361,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Profile,NP*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 8.0.7) date 2025-01-02 12:18:17*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%TA.AperFunction,Profile*%
+%ADD10C,0.050000*%
+%TD*%
+G04 APERTURE END LIST*
+D10*
+X128500000Y-43500000D02*
+X198500000Y-43500000D01*
+X198500000Y-133500000D01*
+X128500000Y-133500000D01*
+X128500000Y-43500000D01*
+M02*

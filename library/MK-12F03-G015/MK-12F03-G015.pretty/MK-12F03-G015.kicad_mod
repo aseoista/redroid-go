@@ -1,0 +1,136 @@
+(footprint "MK-12F03-G015"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "31bb275b-cb96-4928-b4d8-9bab7479cdef")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "MK-12F03-G015"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "369e5d39-2ddb-4bc3-bcf1-2d1638921f11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "318f1168-d41a-4fad-94b4-91ca847f4a95")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0219ba43-cbeb-481f-a6d7-b24a626e20ff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14ca5bb6-2daa-475b-97d2-1e9fe9d7e662")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "cfa409ee-dd4a-4329-af3c-bf53f2248e72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0.5 -5.425)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "8816bab3-c133-47e0-99b6-ef9298789f30")
+	)
+	(pad "" np_thru_hole circle
+		(at 5.5 -5.425)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "96e18834-0c31-44ae-836b-cfac95682b3e")
+	)
+	(pad "1" smd roundrect
+		(at 0 -7.5)
+		(size 0.9 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "b278b774-790e-4cef-8859-92f618c71502")
+	)
+	(pad "2" smd roundrect
+		(at 4.5 -7.5)
+		(size 0.9 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "1a5cad69-7c37-4324-9fbc-67303adb83d1")
+	)
+	(pad "3" smd roundrect
+		(at 6 -7.5)
+		(size 0.9 1.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "b63e4a05-3cc7-4efc-aa0e-ea2518f56b53")
+	)
+	(pad "4" smd roundrect
+		(at -2.5 -5.425)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "5243ba61-78df-432a-9d70-6366dde399f5")
+	)
+	(pad "5" smd roundrect
+		(at 8.5 -5.425)
+		(size 1.1 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "6ef9df22-77ce-491b-b07a-13c79d36847b")
+	)
+)
