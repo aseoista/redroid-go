@@ -76,7 +76,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "../../../../../tmp/x/")
+			(outputdirectory "/tmp/redroid_go/")
 		)
 	)
 	(net 0 "")
@@ -17270,7 +17270,7 @@
 		(at 183.75 60.33341 180)
 		(tags "ESP32-WROVER-E-N16R8 ")
 		(property "Reference" "U1"
-			(at 0.25 -3.66659 0)
+			(at 6.75 -17.16659 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "0e101ee2-93f7-4262-9f1c-c746678b9eba")
