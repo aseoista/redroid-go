@@ -21806,7 +21806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b966c98e-f7db-4d36-b10d-a701bdafa736")
-		(property "Reference" "PAM8403"
+		(property "Reference" "PAM8304"
 			(at 69.85 209.55 0)
 			(effects
 				(font
@@ -21876,7 +21876,7 @@
 		(instances
 			(project ""
 				(path "/54323edd-924e-4c99-bcbf-5375689f8e73"
-					(reference "PAM8403")
+					(reference "PAM8304")
 					(unit 1)
 				)
 			)

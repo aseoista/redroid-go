@@ -466,7 +466,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "/tmp/redroid_go/",
+      "plot": "gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -631,7 +631,7 @@
   "sheets": [
     [
       "54323edd-924e-4c99-bcbf-5375689f8e73",
-      "Principale"
+      "Root"
     ]
   ],
   "text_variables": {}
