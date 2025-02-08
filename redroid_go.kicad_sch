@@ -23341,7 +23341,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Coilcraft_LPS3010"
+		(property "Footprint" "Inductor_SMD:L_Murata_LQH2MCNxxxx02_2.0x1.6mm"
 			(at 302.26 52.07 0)
 			(effects
 				(font
