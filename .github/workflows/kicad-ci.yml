@@ -1,0 +1,53 @@
+name: Generate KiCad Outputs
+
+on:
+  push:
+    branches:
+      - main  # Runs when pushing to the main branch
+    tags:
+      - '*'   # Runs when pushing a new tag
+  pull_request:
+    branches:
+      - main  # Runs when creating a pull request
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up KiCad
+      run: |
+        sudo add-apt-repository --yes ppa:kicad/kicad-6.0-releases
+        sudo apt update
+        sudo apt install --yes kicad
+
+    - name: Generate Gerbers
+      run: |
+        mkdir -p output/gerbers
+        kicad-cli pcb export gerbers your_project.kicad_pcb --output output/gerbers
+
+    - name: Generate Drill Files
+      run: |
+        kicad-cli pcb export drills your_project.kicad_pcb --output output/gerbers
+
+    - name: Generate Front and Rear PCB Views
+      run: |
+        mkdir -p output/renders
+        kicad-cli pcb export svg your_project.kicad_pcb --output output/renders/front.svg --layers F.Cu,F.Mask,F.SilkS
+        kicad-cli pcb export svg your_project.kicad_pcb --output output/renders/rear.svg --layers B.Cu,B.Mask,B.SilkS
+
+    - name: Upload Gerber and Drill Files
+      uses: actions/upload-artifact@v3
+      with:
+        name: Gerber-and-Drill-Files
+        path: output/gerbers
+
+    - name: Upload Rendered PCB Images
+      uses: actions/upload-artifact@v3
+      with:
+        name: Rendered-PCB-Images
+        path: output/renders
+
