@@ -24552,6 +24552,18 @@
 		(layer "User.4")
 		(uuid "f15529dc-03a8-4c3a-baa8-ec3c45a3254a")
 	)
+	(gr_text "REDROID-GO"
+		(at 191.25 126.75 0)
+		(layer "B.SilkS")
+		(uuid "93647858-9a6a-401e-a919-d9317bd1c3da")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom mirror)
+		)
+	)
 	(segment
 		(start 196.5 55)
 		(end 196.5 52.5)
