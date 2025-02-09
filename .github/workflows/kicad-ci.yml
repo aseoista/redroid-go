@@ -32,7 +32,7 @@ jobs:
 
     - name: Generate Drill Files
       run: |
-        kicad-cli pcb export drills redroid_go.kicad_pcb --output output/gerbers
+        kicad-cli pcb export drill redroid_go.kicad_pcb --output output/gerbers
 
     - name: Generate Front and Rear PCB Views
       run: |
