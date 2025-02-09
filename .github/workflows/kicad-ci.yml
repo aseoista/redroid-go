@@ -20,7 +20,7 @@ jobs:
 
     - name: Set up KiCad
       run: |
-        sudo add-apt-repository --yes ppa:kicad/kicad-6.0-releases
+        sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
         sudo apt update
         sudo apt install --yes kicad
 
