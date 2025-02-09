@@ -9,6 +9,7 @@ on:
   pull_request:
     branches:
       - main  # Runs when creating a pull request
+  workflow_dispatch: # Runs manually
 
 jobs:
   build:
