@@ -7360,10 +7360,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:AP2127N-3.3"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "Regulator_Linear:AMS1117-3.3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -7375,7 +7372,7 @@
 					)
 				)
 			)
-			(property "Value" "AP2127N-3.3"
+			(property "Value" "AMS1117-3.3"
 				(at 0 3.175 0)
 				(effects
 					(font
@@ -7384,18 +7381,8 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 5.715 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
-				(at 0 0 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -7403,7 +7390,16 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 3.3V fixed positive output, SOT-23 package"
+			(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7421,7 +7417,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "SOT?23*"
+			(property "ki_fp_filters" "SOT?223*TabPin2*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7430,10 +7426,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "AP2127N-3.3_0_1"
+			(symbol "AMS1117-3.3_0_1"
 				(rectangle
-					(start -5.08 1.905)
-					(end 5.08 -5.08)
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -7443,7 +7439,7 @@
 					)
 				)
 			)
-			(symbol "AP2127N-3.3_1_1"
+			(symbol "AMS1117-3.3_1_1"
 				(pin power_in line
 					(at -7.62 0 0)
 					(length 2.54)
@@ -9624,6 +9620,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f2c7e3e-9ded-49ce-8495-ca0d5bbf724b")
+	)
+	(junction
+		(at 292.1 227.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91e03df1-ca5b-44cd-aa63-aa6854eb5d6a")
 	)
 	(junction
 		(at 127 208.28)
@@ -11865,7 +11867,7 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 227.33) (xy 293.37 227.33)
+			(xy 289.56 227.33) (xy 292.1 227.33)
 		)
 		(stroke
 			(width 0)
@@ -12202,6 +12204,16 @@
 			(type default)
 		)
 		(uuid "8df0cce5-0ee2-4b8b-ac1f-67c29344bdb7")
+	)
+	(wire
+		(pts
+			(xy 292.1 227.33) (xy 292.1 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8f94cda0-9e75-46cb-9018-24909249b9e0")
 	)
 	(wire
 		(pts
@@ -13565,6 +13577,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 227.33) (xy 294.64 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9072f6f-c6a2-4d1f-87aa-0c16ff9cb64d")
+	)
+	(wire
+		(pts
 			(xy 288.29 101.6) (xy 280.67 101.6)
 		)
 		(stroke
@@ -14013,7 +14035,7 @@
 	)
 	(global_label "P3V3_SERIAL"
 		(shape input)
-		(at 293.37 227.33 0)
+		(at 294.64 227.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14023,7 +14045,7 @@
 		)
 		(uuid "0c1cd2ae-5023-4cca-9fe9-f6ae7d339519")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 308.4504 227.33 0)
+			(at 309.7204 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19946,6 +19968,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 292.1 232.41 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "784ad8da-098c-4bcd-a3b0-b04b1364b0a0")
+		(property "Reference" "TP15"
+			(at 294.64 234.4419 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 294.64 236.9819 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 287.02 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 292.1 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1c45da29-e488-4625-93dc-3937106f74fb")
+		)
+		(instances
+			(project "redroid_go"
+				(path "/54323edd-924e-4c99-bcbf-5375689f8e73"
+					(reference "TP15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xGxx:NC7SZ125M5X")
 		(at 325.12 153.67 0)
 		(unit 1)
@@ -21594,78 +21683,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Linear:AP2127N-3.3")
-		(at 281.94 227.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9b978ac3-3ea3-4f25-af5d-d61d8e63a3e0")
-		(property "Reference" "U10"
-			(at 281.94 220.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP2127N-3.3"
-			(at 281.94 223.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-3"
-			(at 281.94 221.615 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP2127.pdf"
-			(at 281.94 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "300mA low dropout linear regulator, shutdown pin, 2.5V-6V input voltage, 3.3V fixed positive output, SOT-23 package"
-			(at 281.94 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "402a379f-ada4-461b-a4a8-59818cc59ae0")
-		)
-		(pin "2"
-			(uuid "c2c7bf69-eaff-4846-92c6-d79e83dd3b49")
-		)
-		(pin "3"
-			(uuid "19397c3f-9c9c-446c-b998-0f576a466480")
-		)
-		(instances
-			(project ""
-				(path "/54323edd-924e-4c99-bcbf-5375689f8e73"
-					(reference "U10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "32teeth - Conductive Buttons:CONDUCTIVE_BUTTONCONDUCTIVE_BUTTON_THICK")
 		(at 46.99 144.78 0)
 		(mirror y)
@@ -21799,6 +21816,77 @@
 			(project "redroid_go"
 				(path "/54323edd-924e-4c99-bcbf-5375689f8e73"
 					(reference "TP3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:AMS1117-3.3")
+		(at 281.94 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f1cab7c-9f08-4a04-b6ec-3fbb4b21db21")
+		(property "Reference" "U5"
+			(at 281.94 220.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AMS1117-3.3"
+			(at 281.94 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
+			(at 281.94 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
+			(at 284.48 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
+			(at 281.94 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fbe04786-b240-422f-bbd2-262e380a6e3f")
+		)
+		(pin "2"
+			(uuid "d918b362-87d8-470a-9c9e-2384e7321503")
+		)
+		(pin "1"
+			(uuid "68010139-00e0-4e0f-860e-e71eda8cd226")
+		)
+		(instances
+			(project ""
+				(path "/54323edd-924e-4c99-bcbf-5375689f8e73"
+					(reference "U5")
 					(unit 1)
 				)
 			)
