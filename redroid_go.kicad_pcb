@@ -23268,7 +23268,7 @@
 		(at 154.5 76.85 90)
 		(tags "5051101892 ")
 		(property "Reference" "J2"
-			(at 0 6.35 270)
+			(at 0 0 270)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "f1a97e26-6a07-4a98-9957-e7594dfbb24c")
@@ -23395,8 +23395,8 @@
 			(uuid "59711b73-e16a-42ae-a0b5-ed1941fed7e2")
 		)
 		(fp_line
-			(start -3.693985 4.736)
-			(end -4.328985 3.72)
+			(start 4.8175 4.508)
+			(end 4.1825 3.492)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -23405,8 +23405,8 @@
 			(uuid "206e0176-e0ed-4116-b42b-522e2dfac74c")
 		)
 		(fp_line
-			(start -5.090985 4.736)
-			(end -4.328985 3.72)
+			(start 3.4205 4.508)
+			(end 4.1825 3.492)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -23415,8 +23415,8 @@
 			(uuid "1c779b60-798f-4955-a446-03c13c2ca2ca")
 		)
 		(fp_line
-			(start -5.090985 4.736)
-			(end -3.693985 4.736)
+			(start 3.4205 4.508)
+			(end 4.8175 4.508)
 			(stroke
 				(width 0.1524)
 				(type solid)
@@ -23545,8 +23545,8 @@
 			(uuid "07c9dcaa-ae1d-4c36-9462-36831db1c786")
 		)
 		(fp_line
-			(start -3.693985 4.736)
-			(end -4.328985 3.72)
+			(start 4.8175 4.508)
+			(end 4.1825 3.492)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -23555,8 +23555,8 @@
 			(uuid "b404bf7e-b953-4844-93fa-d1f68d6e2338")
 		)
 		(fp_line
-			(start -5.090985 4.736)
-			(end -4.328985 3.72)
+			(start 3.4205 4.508)
+			(end 4.1825 3.492)
 			(stroke
 				(width 0.127)
 				(type solid)
@@ -23565,27 +23565,14 @@
 			(uuid "05b1d4b3-2850-4f23-a62d-82be9e2ffc19")
 		)
 		(fp_line
-			(start -5.090985 4.736)
-			(end -3.693985 4.736)
+			(start 3.4205 4.508)
+			(end 4.8175 4.508)
 			(stroke
 				(width 0.127)
 				(type solid)
 			)
 			(layer "B.Fab")
 			(uuid "6675d3a1-3c08-467b-b242-d931c0550e21")
-		)
-		(fp_text user "5051101892"
-			(at 0 8.89 270)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "537284a4-0d19-4f34-8e37-1ec8761e25ec")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 6.35 270)
