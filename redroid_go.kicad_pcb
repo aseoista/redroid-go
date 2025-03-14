@@ -1536,6 +1536,7 @@
 		(property "Value" "START"
 			(at 0 0 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "7997ec63-8052-4348-9429-b3e455972f72")
 			(effects
 				(font
@@ -1775,112 +1776,10 @@
 			(layer "F.Mask")
 			(uuid "6efcb263-c7cf-46c0-9b10-44bf8f47e8b7")
 		)
-		(fp_line
-			(start 0.75 -1.75)
-			(end -2.15 -1.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "f590e39b-5808-452d-9fc4-4981ba920909")
-		)
-		(fp_line
-			(start 1.95 1.25)
-			(end -2.75 1.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "199732f0-d809-4af3-9e03-2f645c56d1ab")
-		)
-		(fp_line
-			(start 2.15 1.75)
-			(end -0.75 1.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "7c0faa54-1dd8-443b-ad02-836348b8b045")
-		)
-		(fp_line
-			(start 2.25 -0.75)
-			(end -2.95 -0.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "d9e029d6-3c5d-4986-92a4-e17c18b06634")
-		)
-		(fp_line
-			(start 2.35 0.25)
-			(end -3.05 0.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "6e342bac-c27c-4dd4-8d19-8e3de9290fcf")
-		)
-		(fp_line
-			(start 2.75 -1.25)
-			(end -1.95 -1.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "37979742-4163-4c7e-963c-3b1d4138f04d")
-		)
-		(fp_line
-			(start 2.95 0.75)
-			(end -2.25 0.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "6fe1f55d-fec6-470a-8a24-312948f183a0")
-		)
-		(fp_line
-			(start 3.15 -0.25)
-			(end -2.35 -0.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "5f618d6b-edad-45fb-9562-6a3353027f20")
-		)
-		(fp_arc
-			(start -1.5 2)
-			(mid -3.178199 0)
-			(end -1.5 -2)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "aee20f41-1536-43f6-b84f-69f3045b9c1d")
-		)
-		(fp_arc
-			(start 1.5 -2)
-			(mid 3.178199 0)
-			(end 1.5 2)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "f4ddbb4e-bcf3-44ac-b14e-d9b0724a73b8")
-		)
 		(pad "P$ACTIVE" smd roundrect
 			(at 2.125 -2.125)
 			(size 1.5 0.508)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.25)
 			(net 59 "IO39")
 			(pinfunction "P$ACTIVE")
@@ -1892,7 +1791,7 @@
 		(pad "P$GND" smd roundrect
 			(at -2.125 2.125 180)
 			(size 1.5 0.508)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pinfunction "P$GND")
@@ -2245,6 +2144,7 @@
 		(property "Value" "SELECT"
 			(at 0 0 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "f21ad739-1e2d-465a-ae7e-5778a33c8e6b")
 			(effects
 				(font
@@ -2484,112 +2384,10 @@
 			(layer "F.Mask")
 			(uuid "acb7d6ca-a6de-45ce-b39d-1ee7caeec12a")
 		)
-		(fp_line
-			(start 0.75 -1.75)
-			(end -2.15 -1.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "371eef2e-65c3-41b0-8e65-3ce5c0d3a737")
-		)
-		(fp_line
-			(start 1.95 1.25)
-			(end -2.75 1.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "36a63022-a2cd-4f1d-9250-c4b7a60cb817")
-		)
-		(fp_line
-			(start 2.15 1.75)
-			(end -0.75 1.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "85a7c4ad-d039-474f-aad2-c78508554d3b")
-		)
-		(fp_line
-			(start 2.25 -0.75)
-			(end -2.95 -0.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "64a3b908-dfd8-4d96-8714-a0f4e5ca3e15")
-		)
-		(fp_line
-			(start 2.35 0.25)
-			(end -3.05 0.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "8ea4847a-8d0f-4147-ba3f-ad6854a59dc3")
-		)
-		(fp_line
-			(start 2.75 -1.25)
-			(end -1.95 -1.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "bff2dd81-e5f9-4035-97ca-000ad97b046e")
-		)
-		(fp_line
-			(start 2.95 0.75)
-			(end -2.25 0.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "6a16404c-e8b7-40b9-b3e4-e7b10cc3db02")
-		)
-		(fp_line
-			(start 3.15 -0.25)
-			(end -2.35 -0.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "76858818-b902-4c1b-a4ae-5146f3fefccb")
-		)
-		(fp_arc
-			(start -1.5 2)
-			(mid -3.178199 0)
-			(end -1.5 -2)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "d1e8666d-8747-4786-80f7-a9aec21c5b84")
-		)
-		(fp_arc
-			(start 1.5 -2)
-			(mid 3.178199 0)
-			(end 1.5 2)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "e93a0d89-7983-4397-97f8-b60503b369dc")
-		)
 		(pad "P$ACTIVE" smd roundrect
 			(at 2.125 -2.125)
 			(size 1.5 0.508)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.25)
 			(net 62 "IO27")
 			(pinfunction "P$ACTIVE")
@@ -2601,7 +2399,7 @@
 		(pad "P$GND" smd roundrect
 			(at -2.125 2.125 180)
 			(size 1.5 0.508)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pinfunction "P$GND")
@@ -3612,6 +3410,7 @@
 		(property "Value" "MENU"
 			(at 0 0 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "874bf53b-290a-49d2-842f-70be8ba5d5f7")
 			(effects
 				(font
@@ -3851,112 +3650,10 @@
 			(layer "F.Mask")
 			(uuid "83757286-e25f-4ae1-a312-3bd5410f0871")
 		)
-		(fp_line
-			(start 0.75 -1.75)
-			(end -2.15 -1.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "33ea5103-615b-483b-9c44-f141df8e7f12")
-		)
-		(fp_line
-			(start 1.95 1.25)
-			(end -2.75 1.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "1d0942ab-292f-4e45-8f09-83d16aa30f0c")
-		)
-		(fp_line
-			(start 2.15 1.75)
-			(end -0.75 1.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "706c91f5-35c3-4c19-a7e1-9ba1b8ed82e9")
-		)
-		(fp_line
-			(start 2.25 -0.75)
-			(end -2.95 -0.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "e0330a84-4281-4133-9b79-6e1a1acccc47")
-		)
-		(fp_line
-			(start 2.35 0.25)
-			(end -3.05 0.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "b4a4ea18-cffc-4c3c-bbbd-8902d64c1dff")
-		)
-		(fp_line
-			(start 2.75 -1.25)
-			(end -1.95 -1.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "5bd0d13c-df92-4fa0-85f0-ea2fb8503062")
-		)
-		(fp_line
-			(start 2.95 0.75)
-			(end -2.25 0.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "e9bd2d6f-3320-4fee-911d-29d4f4e16297")
-		)
-		(fp_line
-			(start 3.15 -0.25)
-			(end -2.35 -0.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "e9311f1d-8b54-4207-8eb0-3dacd06513a0")
-		)
-		(fp_arc
-			(start -1.5 2)
-			(mid -3.178199 0)
-			(end -1.5 -2)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "d9df60a3-d252-42cd-b46e-98b76a51dff9")
-		)
-		(fp_arc
-			(start 1.5 -2)
-			(mid 3.178199 0)
-			(end 1.5 2)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "294fb9ad-17fc-45e5-b663-09a87889909c")
-		)
 		(pad "P$ACTIVE" smd roundrect
 			(at 2.125 -2.125)
 			(size 1.5 0.508)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.25)
 			(net 61 "IO13")
 			(pinfunction "P$ACTIVE")
@@ -3968,7 +3665,7 @@
 		(pad "P$GND" smd roundrect
 			(at -2.125 2.125 180)
 			(size 1.5 0.508)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pinfunction "P$GND")
@@ -4630,6 +4327,7 @@
 		(property "Value" "VOLUME"
 			(at 0 0 0)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "e7b0d0dc-746c-4017-bed5-018929546d6a")
 			(effects
 				(font
@@ -4869,112 +4567,10 @@
 			(layer "F.Mask")
 			(uuid "2d830adc-49bd-444f-b575-4715021cee2d")
 		)
-		(fp_line
-			(start 0.75 -1.75)
-			(end -2.15 -1.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "49219094-0f62-4444-b9ca-ba5bad77a7c4")
-		)
-		(fp_line
-			(start 1.95 1.25)
-			(end -2.75 1.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "97176f9b-3381-4083-b459-5bb443eccbe4")
-		)
-		(fp_line
-			(start 2.15 1.75)
-			(end -0.75 1.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "60d8abb7-e97c-4c6e-b0e5-9b172a77fd3b")
-		)
-		(fp_line
-			(start 2.25 -0.75)
-			(end -2.95 -0.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "67405c43-3506-4468-b6d9-48573e0d8e21")
-		)
-		(fp_line
-			(start 2.35 0.25)
-			(end -3.05 0.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "1f8b67f8-fcab-4479-9359-ed731fcb9f8b")
-		)
-		(fp_line
-			(start 2.75 -1.25)
-			(end -1.95 -1.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "9e5bfa82-db99-40ad-a99f-12f451bb039c")
-		)
-		(fp_line
-			(start 2.95 0.75)
-			(end -2.25 0.75)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "5301668d-9bdc-46ec-bd45-ecb741fadc57")
-		)
-		(fp_line
-			(start 3.15 -0.25)
-			(end -2.35 -0.25)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "d85dd7f2-2d35-448f-b4fb-c76148efe392")
-		)
-		(fp_arc
-			(start -1.5 2)
-			(mid -3.178199 0)
-			(end -1.5 -2)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "cc1dd29d-868d-49fc-9bb8-15dbcf005b66")
-		)
-		(fp_arc
-			(start 1.5 -2)
-			(mid 3.178199 0)
-			(end 1.5 2)
-			(stroke
-				(width 0.254)
-				(type solid)
-			)
-			(layer "F.Paste")
-			(uuid "b4bb6df2-a016-4438-ac52-9d0a3264f159")
-		)
 		(pad "P$ACTIVE" smd roundrect
 			(at 2.125 -2.125)
 			(size 1.5 0.508)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.25)
 			(net 50 "IO0")
 			(pinfunction "P$ACTIVE")
@@ -4986,7 +4582,7 @@
 		(pad "P$GND" smd roundrect
 			(at -2.125 2.125 180)
 			(size 1.5 0.508)
-			(layers "F.Cu" "F.Mask" "F.Paste")
+			(layers "F.Cu")
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pinfunction "P$GND")
