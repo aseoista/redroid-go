@@ -9520,6 +9520,12 @@
 		(uuid "6248492a-d9c6-4cac-a7c7-42586ea15bf1")
 	)
 	(junction
+		(at 281.94 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "675e8676-9848-419a-8071-0b4eb1ec56fe")
+	)
+	(junction
 		(at 177.8 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9530,12 +9536,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dd7af5a-3b73-41af-abd1-ef00f4e1a8c4")
-	)
-	(junction
-		(at 281.94 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72563b05-6b81-4db2-88a6-54e199ca8d94")
 	)
 	(junction
 		(at 334.01 90.17)
@@ -10707,16 +10707,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 234.95) (xy 281.94 240.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "345276c5-a44d-43e7-9b27-118a9e973f71")
-	)
-	(wire
-		(pts
 			(xy 200.66 67.31) (xy 200.66 69.85)
 		)
 		(stroke
@@ -11397,6 +11387,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 227.33) (xy 292.1 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56ce8466-4780-4916-aa63-5c43c3ff56ff")
+	)
+	(wire
+		(pts
 			(xy 46.99 48.26) (xy 71.12 48.26)
 		)
 		(stroke
@@ -11414,6 +11414,16 @@
 			(type default)
 		)
 		(uuid "59a869bd-8a9c-4f3f-a71d-7036910bfed9")
+	)
+	(wire
+		(pts
+			(xy 281.94 240.03) (xy 292.1 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a364341-4962-43bb-b539-7b5ca75597f3")
 	)
 	(wire
 		(pts
@@ -12207,7 +12217,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 227.33) (xy 292.1 232.41)
+			(xy 292.1 227.33) (xy 292.1 219.71)
 		)
 		(stroke
 			(width 0)
@@ -12507,16 +12517,6 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 240.03) (xy 281.94 243.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a10ae04c-a5c1-4372-87b9-7316c5c32419")
-	)
-	(wire
-		(pts
 			(xy 30.48 43.18) (xy 36.83 43.18)
 		)
 		(stroke
@@ -12797,6 +12797,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 240.03) (xy 271.78 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b406f728-2a66-4a12-9202-ad8e1e2a4827")
+	)
+	(wire
+		(pts
 			(xy 224.79 107.95) (xy 213.36 107.95)
 		)
 		(stroke
@@ -12967,7 +12977,7 @@
 	)
 	(wire
 		(pts
-			(xy 271.78 227.33) (xy 271.78 232.41)
+			(xy 271.78 227.33) (xy 271.78 231.14)
 		)
 		(stroke
 			(width 0)
@@ -12994,6 +13004,16 @@
 			(type default)
 		)
 		(uuid "bffae554-1827-4f8e-a3d4-5542ab9b9942")
+	)
+	(wire
+		(pts
+			(xy 281.94 240.03) (xy 281.94 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c135e60f-8d93-47e0-9292-ac100d5cbf3a")
 	)
 	(wire
 		(pts
@@ -13307,6 +13327,16 @@
 	)
 	(wire
 		(pts
+			(xy 281.94 234.95) (xy 281.94 240.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dab8a021-eb62-4982-8804-d91919adbb68")
+	)
+	(wire
+		(pts
 			(xy 69.85 142.24) (xy 69.85 144.78)
 		)
 		(stroke
@@ -13374,6 +13404,16 @@
 			(type default)
 		)
 		(uuid "de5e7e41-0d1b-4e2c-b26c-be256cc61185")
+	)
+	(wire
+		(pts
+			(xy 292.1 240.03) (xy 292.1 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de98b46a-bf3c-475a-931c-6c9fc4900e5c")
 	)
 	(wire
 		(pts
@@ -19192,7 +19232,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 271.78 236.22 0)
+		(at 271.78 234.95 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19201,7 +19241,7 @@
 		(dnp no)
 		(uuid "53b26546-0fdb-4245-a144-f664841ddd0a")
 		(property "Reference" "C17"
-			(at 267.97 234.9499 0)
+			(at 267.97 233.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19209,8 +19249,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 267.97 237.4899 0)
+		(property "Value" "10uF"
+			(at 267.97 236.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19219,7 +19259,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 270.8148 240.03 0)
+			(at 270.8148 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19228,7 +19268,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 271.78 236.22 0)
+			(at 271.78 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19237,7 +19277,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 271.78 236.22 0)
+			(at 271.78 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19679,6 +19719,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 292.1 234.95 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6bcf532b-432d-4b7b-b614-4dc2d50c3808")
+		(property "Reference" "C18"
+			(at 288.29 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22uF"
+			(at 288.29 236.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 291.1348 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 292.1 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 292.1 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "727a43e3-9eb1-4930-b671-581549416f36")
+		)
+		(pin "1"
+			(uuid "2095de6a-0b8d-4ed6-92dc-c74bc19df7c3")
+		)
+		(instances
+			(project "redroid_go"
+				(path "/54323edd-924e-4c99-bcbf-5375689f8e73"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "32teeth - Conductive Buttons:CONDUCTIVE_BUTTON_STARTSELECT")
 		(at 116.84 157.48 0)
 		(mirror y)
@@ -19969,7 +20079,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 292.1 232.41 180)
+		(at 292.1 219.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19978,25 +20088,25 @@
 		(fields_autoplaced yes)
 		(uuid "784ad8da-098c-4bcd-a3b0-b04b1364b0a0")
 		(property "Reference" "TP15"
-			(at 294.64 234.4419 0)
+			(at 294.64 215.1379 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 294.64 236.9819 0)
+			(at 294.64 217.6779 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 287.02 232.41 0)
+			(at 297.18 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20005,7 +20115,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 287.02 232.41 0)
+			(at 297.18 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20014,7 +20124,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 292.1 232.41 0)
+			(at 292.1 219.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
