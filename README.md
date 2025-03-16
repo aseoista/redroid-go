@@ -3,8 +3,8 @@
 
 REDROID-GO is an open-source, custom-designed handheld gaming console inspired by the original ODROID-GO. This project enhances the original (discontinued) design with modern features, while maintaining as much as possible full software compatibility.
 
-![redroid_go-front](https://github.com/user-attachments/assets/6407e50d-08ad-4087-b39e-473507e58c44)
-![redroid_go-back](https://github.com/user-attachments/assets/f07a5310-58f9-40b4-9625-f72ec72e41d0)
+![redroid_go-front](https://github.com/user-attachments/assets/cacc3aa0-d607-4ed2-b0cd-5416fa8783ae)
+![redroid_go-back](https://github.com/user-attachments/assets/10039024-12af-4b02-8933-e4c2a151f8fd)
 
 
 ## Features
@@ -24,7 +24,7 @@ The _master_ branch contains the latest, **unstable** version of the project, wh
 ## Compatibility
 The base idea is to keep the project as much software-compatible as possible to the original ODROID-GO. There are some caveats though:
 - New ESP32-WROVERs require the setting `CONFIG_INT_WDT` set to `y` in ESP-IDF.
-- When using the IPS display, the commands to initialize the display should include an additional `0x31`. This is because even if the IPS display uses the same driver IC as the TFT one, by default the colors are inverted.
+- When using the IPS display, the commands to initialize the display should include an additional `0x21`. This is because even if the IPS display uses the same driver IC as the TFT one, by default the colors are inverted.
 
 ## Contributing
 Contributions are welcome! Feel free to submit pull requests or open issues to discuss improvements.
