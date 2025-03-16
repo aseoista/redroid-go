@@ -1,4 +1,5 @@
-# REDROID-GO
+
+![logo](https://github.com/user-attachments/assets/940dbb1f-c628-4089-b30e-78433d526763)
 
 REDROID-GO is an open-source, custom-designed handheld gaming console inspired by the original ODROID-GO. This project enhances the original (discontinued) design with modern features, while maintaining as much as possible full software compatibility.
 
