@@ -17147,7 +17147,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 82.55 265.43 0)
+		(at 76.2 266.7 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -17156,7 +17156,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ca086e1-d759-447c-8400-96af2167dec5")
 		(property "Reference" "H2"
-			(at 85.09 262.8899 0)
+			(at 78.74 264.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17165,7 +17165,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 85.09 265.4299 0)
+			(at 78.74 266.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17174,7 +17174,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 82.55 265.43 0)
+			(at 76.2 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17183,7 +17183,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 265.43 0)
+			(at 76.2 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17192,7 +17192,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 82.55 265.43 0)
+			(at 76.2 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23049,7 +23049,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 41.91 266.7 0)
+		(at 50.8 266.7 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -23058,7 +23058,7 @@
 		(fields_autoplaced yes)
 		(uuid "c43a5e46-e736-4d49-9b7b-eb9569407a93")
 		(property "Reference" "H1"
-			(at 44.45 264.1599 0)
+			(at 53.34 264.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23067,7 +23067,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 44.45 266.6999 0)
+			(at 53.34 266.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23076,7 +23076,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 41.91 266.7 0)
+			(at 50.8 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23085,7 +23085,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 41.91 266.7 0)
+			(at 50.8 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23094,7 +23094,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 41.91 266.7 0)
+			(at 50.8 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23798,7 +23798,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 151.13 264.16 0)
+		(at 127 266.7 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -23807,7 +23807,7 @@
 		(fields_autoplaced yes)
 		(uuid "d8ac2e10-4229-4319-b879-6cce79e71064")
 		(property "Reference" "H4"
-			(at 153.67 261.6199 0)
+			(at 129.54 264.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23816,7 +23816,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 153.67 264.1599 0)
+			(at 129.54 266.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23825,7 +23825,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 151.13 264.16 0)
+			(at 127 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23834,7 +23834,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 151.13 264.16 0)
+			(at 127 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23843,7 +23843,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 151.13 264.16 0)
+			(at 127 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23930,6 +23930,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 152.4 266.7 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbf67302-e602-4ad5-868f-c92a8cf1239b")
+		(property "Reference" "H5"
+			(at 154.94 264.1599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 154.94 266.6999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
+			(at 152.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 152.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 152.4 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aaf3c95-4aa9-425b-ac66-2da1848ae0ee")
+		)
+		(instances
+			(project "redroid_go"
+				(path "/54323edd-924e-4c99-bcbf-5375689f8e73"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 245.11 271.78 0)
 		(unit 1)
@@ -23997,7 +24064,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:MountingHole_Pad")
-		(at 118.11 264.16 0)
+		(at 101.6 266.7 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -24006,7 +24073,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1c35363-1e36-4bf1-9d09-cdbb1d87aaff")
 		(property "Reference" "H3"
-			(at 120.65 261.6199 0)
+			(at 104.14 264.1599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24015,7 +24082,7 @@
 			)
 		)
 		(property "Value" "MountingHole_Pad"
-			(at 120.65 264.1599 0)
+			(at 104.14 266.6999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24024,7 +24091,7 @@
 			)
 		)
 		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2_DIN965_Pad"
-			(at 118.11 264.16 0)
+			(at 101.6 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24033,7 +24100,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 264.16 0)
+			(at 101.6 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24042,7 +24109,7 @@
 			)
 		)
 		(property "Description" "Mounting Hole with connection"
-			(at 118.11 264.16 0)
+			(at 101.6 266.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
