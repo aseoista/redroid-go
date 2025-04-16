@@ -30,4 +30,6 @@ The base idea is to keep the project as much software-compatible as possible to 
 Contributions are welcome! Feel free to submit pull requests or open issues to discuss improvements.
 
 ## Acknowledgments
-Special thanks to **Hardkernel** for the original ODROID-GO design and the open-source community for keeping retro gaming alive.
+Special thanks to **Hardkernel** for the original ODROID-GO design and the open-source community for keeping retro gaming alive. Thanks also to:
+ -  [32teeth](https://github.com/32teeth) for the membrane buttons library.
+ -  [DoganM95](https://github.com/DoganM95) and [snakeye](https://github.com/snakeye) for references on USB PD resistors and auto programming of the ESP32 (see [CH340C-Serial-Programmer](https://github.com/DoganM95/CH340C-Serial-Programmer) and [ch340g-esp32](https://github.com/snakeye/ch340g-esp32)).
