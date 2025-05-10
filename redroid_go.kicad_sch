@@ -14535,7 +14535,7 @@
 			)
 		)
 	)
-	(global_label "IO21"
+	(global_label "D/C"
 		(shape input)
 		(at 240.03 154.94 180)
 		(fields_autoplaced yes)
@@ -14777,7 +14777,7 @@
 			)
 		)
 	)
-	(global_label "IO21"
+	(global_label "D{slash}C"
 		(shape input)
 		(at 129.54 76.2 0)
 		(fields_autoplaced yes)
@@ -14789,7 +14789,7 @@
 		)
 		(uuid "62d6f0c7-cae3-4566-9e26-ef1d05cbacf8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 136.8795 76.2 0)
+			(at 136.3957 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
