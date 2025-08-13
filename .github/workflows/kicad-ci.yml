@@ -28,18 +28,18 @@ jobs:
     - name: Generate Gerbers
       run: |
         mkdir -p output/gerbers
-        sed -i "s\REDROID-GO\REDROID-GO-$GITHUB_REF_NAME\g" redroid_go.kicad_pcb
-        kicad-cli pcb export gerbers redroid_go.kicad_pcb --output output/gerbers
+        sed -i "s\REDROID-GO\REDROID-GO-$GITHUB_REF_NAME\g" pcb/redroid_go.kicad_pcb
+        kicad-cli pcb export gerbers pcb/redroid_go.kicad_pcb --output output/gerbers
 
     - name: Generate Drill Files
       run: |
-        kicad-cli pcb export drill redroid_go.kicad_pcb --output output/gerbers
+        kicad-cli pcb export drill pcb/redroid_go.kicad_pcb --output output/gerbers
 
     - name: Generate Front and Rear PCB Views
       run: |
         mkdir -p output/renders
-        kicad-cli pcb export svg redroid_go.kicad_pcb --output output/renders/front.svg --layers F.Cu,F.Mask,F.SilkS
-        kicad-cli pcb export svg redroid_go.kicad_pcb --output output/renders/rear.svg --layers B.Cu,B.Mask,B.SilkS
+        kicad-cli pcb export svg pcb/redroid_go.kicad_pcb --output output/renders/front.svg --layers F.Cu,F.Mask,F.SilkS
+        kicad-cli pcb export svg pcb/redroid_go.kicad_pcb --output output/renders/rear.svg --layers B.Cu,B.Mask,B.SilkS
 
     - name: Upload Gerber and Drill Files
       uses: actions/upload-artifact@v4
@@ -52,4 +52,3 @@ jobs:
       with:
         name: Rendered-PCB-Images
         path: output/renders
-

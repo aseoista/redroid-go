@@ -1,0 +1,30 @@
+name: Generate FreeCAD Outputs
+
+on:
+  push:
+    branches:
+      - main  # Runs when pushing to the main branch
+    tags:
+      - '*'   # Runs when pushing a new tag
+  pull_request:
+    branches:
+      - main  # Runs when creating a pull request
+  workflow_dispatch: # Runs manually
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up FreeCAD
+      run: |
+        sudo add-apt-repository ppa:freecad-maintainers/freecad-stable
+        sudo apt update
+        sudo apt install --yes freecad
+    
+    - name: Generate STL Files
+      run: |
+        ./tools/freecad_stl_export.py case/redroid_go.FCStd output/case
