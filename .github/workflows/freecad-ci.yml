@@ -28,9 +28,16 @@ jobs:
     - name: Generate STL Files
       run: |
         freecadcmd tools/freecad_stl_export.py
+        zip -r case.zip output/stl
     
     - name: Upload STL Files
       uses: actions/upload-artifact@v4
       with:
         name: redroid_go-${{ github.ref_name }}
         path: output/stl
+
+    - name: Release
+      uses: softprops/action-gh-release@v2
+      if: github.ref_type == 'tag'
+      with:
+        files: case.zip

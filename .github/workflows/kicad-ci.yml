@@ -35,6 +35,10 @@ jobs:
       run: |
         kicad-cli pcb export drill pcb/redroid_go.kicad_pcb --output output/gerbers
 
+    - name: Zip files
+      run: |
+        zip -r gerbers.zip output/gerbers
+
     - name: Generate Front and Rear PCB Views
       run: |
         mkdir -p output/renders
@@ -52,3 +56,9 @@ jobs:
       with:
         name: Rendered-PCB-Images
         path: output/renders
+
+    - name: Release
+      uses: softprops/action-gh-release@v2
+      if: github.ref_type == 'tag'
+      with:
+        files: gerbers.zip
