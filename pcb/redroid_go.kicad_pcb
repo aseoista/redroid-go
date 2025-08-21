@@ -5153,7 +5153,7 @@
 			)
 		)
 		(pad "1" thru_hole circle
-			(at 0 0)
+			(at -0.05 0)
 			(size 3.8 3.8)
 			(drill 2.2)
 			(layers "*.Cu" "*.Mask")
