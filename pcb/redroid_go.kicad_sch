@@ -9937,16 +9937,6 @@
 	)
 	(wire
 		(pts
-			(xy 350.52 30.48) (xy 350.52 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0282b54c-4ab9-4fb4-8790-1f8811be2767")
-	)
-	(wire
-		(pts
 			(xy 153.67 238.76) (xy 160.02 238.76)
 		)
 		(stroke
@@ -10777,6 +10767,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 30.48) (xy 290.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3841ed87-df4f-4e63-86a8-1fe6c688dff5")
+	)
+	(wire
+		(pts
 			(xy 269.24 227.33) (xy 271.78 227.33)
 		)
 		(stroke
@@ -11377,16 +11377,6 @@
 	)
 	(wire
 		(pts
-			(xy 293.37 33.02) (xy 290.83 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "552f3058-e997-452d-86a1-106ec3889a43")
-	)
-	(wire
-		(pts
 			(xy 219.71 180.34) (xy 219.71 191.77)
 		)
 		(stroke
@@ -11607,6 +11597,16 @@
 	)
 	(wire
 		(pts
+			(xy 350.52 27.94) (xy 350.52 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64db56c9-5010-4adc-9c42-1274bf62f902")
+	)
+	(wire
+		(pts
 			(xy 356.87 60.96) (xy 359.41 60.96)
 		)
 		(stroke
@@ -11764,6 +11764,16 @@
 			(type default)
 		)
 		(uuid "6e845c3a-dc06-4eee-8601-ddb1a7ad05f4")
+	)
+	(wire
+		(pts
+			(xy 312.42 27.94) (xy 350.52 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f50e28d-9d1b-46da-9f44-47f18ca17378")
 	)
 	(wire
 		(pts
@@ -12204,16 +12214,6 @@
 			(type default)
 		)
 		(uuid "88c7a781-f593-468a-ba28-6e1073852335")
-	)
-	(wire
-		(pts
-			(xy 303.53 30.48) (xy 350.52 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89e4203c-c55a-4b0f-9639-1e61da8685db")
 	)
 	(wire
 		(pts
@@ -13747,6 +13747,16 @@
 	)
 	(wire
 		(pts
+			(xy 290.83 30.48) (xy 302.26 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec912850-7f43-49be-95c4-c9ffd4759c45")
+	)
+	(wire
+		(pts
 			(xy 83.82 218.44) (xy 83.82 241.3)
 		)
 		(stroke
@@ -13964,16 +13974,6 @@
 			(type default)
 		)
 		(uuid "fc951af1-ded7-4c39-b212-469cabc70d50")
-	)
-	(wire
-		(pts
-			(xy 290.83 33.02) (xy 290.83 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcf748da-e5c7-4fe9-ade0-4883b505856c")
 	)
 	(wire
 		(pts
@@ -24577,16 +24577,16 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 298.45 33.02 0)
+		(at 307.34 27.94 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "efcc1300-38ca-4b20-a3eb-a1df2981297b")
 		(property "Reference" "SW11"
-			(at 298.45 24.13 0)
+			(at 307.34 19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24594,7 +24594,7 @@
 			)
 		)
 		(property "Value" "SW_SPDT"
-			(at 298.45 26.67 0)
+			(at 307.34 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24602,7 +24602,7 @@
 			)
 		)
 		(property "Footprint" "MK-12F03-G015:MK-12F03-G015"
-			(at 298.45 33.02 0)
+			(at 307.34 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24611,7 +24611,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 298.45 40.64 0)
+			(at 307.34 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24620,7 +24620,7 @@
 			)
 		)
 		(property "Description" "Switch, single pole double throw"
-			(at 298.45 33.02 0)
+			(at 307.34 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
