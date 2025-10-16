@@ -17472,7 +17472,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "uSD"
 			(at 248.92 248.92 0)
 			(effects
 				(font
@@ -22523,7 +22523,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "PAM8304"
 			(at 69.85 212.09 0)
 			(effects
 				(font
