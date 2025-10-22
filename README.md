@@ -46,6 +46,9 @@ All components can be soldered by hand.
 - A **desoldering braid** can be very useful to wick away any excess solder or to correct bridges
 - When done soldering, clean the PCB with **isopropyl alcohol (≥90% IPA)**, especially around the buttons’ pads, using a brush or lint-free wipe; let it dry fully before powering
 
+### Shell
+The shell can be 3D printed using the STL files contained in the `case.zip` release artifact.
+
 ## Contributing
 Contributions are welcome! Feel free to submit pull requests or open issues to discuss improvements.
 
