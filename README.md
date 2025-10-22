@@ -28,6 +28,24 @@ The base idea is to keep the project as much software-compatible as possible to 
 - New ESP32-WROVERs require the setting `CONFIG_INT_WDT` set to `y` in ESP-IDF.
 - When using the IPS display, the commands to initialize it should include an additional `0x21`. This is because even if the IPS display uses the same driver IC as the TFT one, by default the colors are inverted.
 
+## Hardware Fabrication
+
+### Ordering the PCB
+You can order the PCB directly from the `gerber.zip` release artifact using any common PCB manufacturer.<br>
+Specs for ordering:
+- **Thickness:** 1.6 mm, **required** to make it fit in the case
+- **Finish:** ENIG is **strongly recommended**. ENIG provides a flatter and more durable pad surface than HASL, which ensures more consistent readings from the membrane buttons over time.
+
+### Soldering the Components
+All components can be soldered by hand.
+
+**Tips**
+- A regular soldering iron is sufficient — use a **thin tip** for finer control
+- Apply **no-clean flux or thermal flux** to ease solder flow and avoid bridges
+- **Start with the USB-C connector and the display connector** — they are the most difficult parts to solder; then proceed with the remaining components
+- A **desoldering braid** can be very useful to wick away any excess solder or to correct bridges
+- When done soldering, clean the PCB with **isopropyl alcohol (≥90% IPA)**, especially around the buttons’ pads, using a brush or lint-free wipe; let it dry fully before powering
+
 ## Contributing
 Contributions are welcome! Feel free to submit pull requests or open issues to discuss improvements.
 
