@@ -17,8 +17,8 @@ REDROID-GO is an open-source, custom-designed handheld gaming console inspired b
 
 ## Repository Contents
 - **KiCad Project** – Includes schematic, PCB design, and layout.
+- **FreeCAD Project** – Design of the shell.
 - **Bill of Materials (BOM)** – All of the PCB components are sourced from LCSC. Other components, such as the display, speaker, battery, buttons need to be bought separately.
-- **Assembly Instructions** – Step-by-step guide to build your REDROID-GO (coming soon).
 
 ### Branching Structure
 The _master_ branch contains the latest, **unstable** version of the project, which has not been manufactured or tested yet. If you are looking for a stable and tested version, please refer to the **releases** section, where you can find previous working versions of REDROID-GO.
