@@ -49,6 +49,11 @@ All components can be soldered by hand.
 ### Shell
 The shell can be 3D printed using the STL files contained in the `case.zip` release artifact.
 
+## Software
+This device can be programmed like any other ESP32-based board.<br>
+A customized bootloader is available in this [fork](https://github.com/aseoista/odroid-go-multi-firmware) of the original [odroid-go-multi-firmware](https://github.com/ducalex/odroid-go-multi-firmware).  
+For emulation, the recommended firmware is this [fork](https://github.com/aseoista/retro-go) of [retro-go](https://github.com/aseoista/retro-go).
+
 ## Contributing
 Contributions are welcome! Feel free to submit pull requests or open issues to discuss improvements.
 
@@ -56,4 +61,4 @@ Contributions are welcome! Feel free to submit pull requests or open issues to d
 Special thanks to **Hardkernel** for the original ODROID-GO design and the open-source community for keeping retro gaming alive. Thanks also to:
  -  [32teeth](https://github.com/32teeth) for the membrane buttons library.
  -  [DoganM95](https://github.com/DoganM95) and [snakeye](https://github.com/snakeye) for references on USB PD resistors and auto programming of the ESP32 (see [CH340C-Serial-Programmer](https://github.com/DoganM95/CH340C-Serial-Programmer) and [ch340g-esp32](https://github.com/snakeye/ch340g-esp32)).
- -  [ducalex](https://github.com/ducalex) for providing awesome software for the platform such as [odroid-go-multi-firmware](https://github.com/ducalex/odroid-go-multi-firmware) and [retro-go](https://github.com/ducalex/retro-go).
+ -  [ducalex](https://github.com/ducalex) for providing awesome software for the platform such as _odroid-go-multi-firmware_ and _retro-go_.
