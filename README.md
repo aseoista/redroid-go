@@ -50,7 +50,7 @@ The shell can be 3D printed using the STL files contained in the `case.zip` rele
 ## Software
 This device can be programmed like any other ESP32-based board.<br>
 A customized bootloader is available in this [fork](https://github.com/aseoista/odroid-go-multi-firmware) of the original [odroid-go-multi-firmware](https://github.com/ducalex/odroid-go-multi-firmware).  
-For emulation, the recommended firmware is this [fork](https://github.com/aseoista/retro-go) of [retro-go](https://github.com/aseoista/retro-go).
+For emulation, the recommended firmware is this [fork](https://github.com/aseoista/retro-go) of [retro-go](https://github.com/ducalex/retro-go).
 
 ## Contributing
 Contributions are welcome! Feel free to submit pull requests or open issues to discuss improvements.
