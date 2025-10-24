@@ -3,11 +3,9 @@
 
 REDROID-GO is an open-source, custom-designed handheld gaming console inspired by the original ODROID-GO. This project enhances the original (discontinued) design with modern features, while maintaining as much as possible software compatibility.
 
-<img width="390" height="530" alt="redroid_go_front" src="https://github.com/user-attachments/assets/8ff2602d-4b23-446b-a254-f02d86409650" />
-<img width="390" height="530" alt="redroid_go_bottom" src="https://github.com/user-attachments/assets/2bca3361-def3-498c-9aa0-8ef3de1df3ef" />
-
-
-
+| <img width="338" height="530" alt="image" src="https://github.com/user-attachments/assets/98186a5a-dee7-4de5-96a9-1daa555ce65f" /> | <img width="390" height="530" alt="redroid_go_front" src="https://github.com/user-attachments/assets/8ff2602d-4b23-446b-a254-f02d86409650" /> | <img width="390" height="530" alt="redroid_go_bottom" src="https://github.com/user-attachments/assets/2bca3361-def3-498c-9aa0-8ef3de1df3ef" /> |
+| :---: | :---: | :---: |
+| Full Build | PCB Front  | PCB Back | 
 
 ## Features
 - **USB-C Connector** – Modern power and data connectivity.
