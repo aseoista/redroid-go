@@ -27,7 +27,7 @@ The base idea is to keep the project as much software-compatible as possible to 
 - When using the IPS display, the commands to initialize it should include an additional `0x21`. This is because even if the IPS display uses the same driver IC as the TFT one, by default the colors are inverted.
 
 ## Hardware Fabrication
-
+For a full guide to build the device, refer to [BUILDING.md](BUILDING.md)!
 ### Ordering the PCB
 You can order the PCB directly from the `gerber.zip` release artifact using any common PCB manufacturer.<br>
 Specs for ordering:
