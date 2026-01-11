@@ -65,7 +65,7 @@ jobs:
       uses: actions/upload-artifact@v4
       with:
         name: Schematic
-        path: output/redroid_go_schematic-$GITHUB_REF_NAME.pdf
+        path: output/redroid_go_schematic-*.pdf
 
     - name: Release
       uses: softprops/action-gh-release@v2
