@@ -73,4 +73,4 @@ jobs:
       with:
         files: |
           gerbers.zip
-          output/redroid_go_schematic-$GITHUB_REF_NAME.pdf
+          output/redroid_go_schematic-*.pdf
