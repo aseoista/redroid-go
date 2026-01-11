@@ -47,7 +47,7 @@ jobs:
 
     - name: Generate Schematic File
       run: |
-        kicad-cli sch export pdf redroid_go.kicad_sch -o output/redroid_go_schematic-$GITHUB_REF_NAME.pdf
+        kicad-cli sch export pdf pcb/redroid_go.kicad_sch -o output/redroid_go_schematic-$GITHUB_REF_NAME.pdf
 
     - name: Upload Gerber and Drill Files
       uses: actions/upload-artifact@v4
