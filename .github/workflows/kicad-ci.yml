@@ -45,6 +45,10 @@ jobs:
         kicad-cli pcb export svg pcb/redroid_go.kicad_pcb --output output/renders/front.svg --layers F.Cu,F.Mask,F.SilkS
         kicad-cli pcb export svg pcb/redroid_go.kicad_pcb --output output/renders/rear.svg --layers B.Cu,B.Mask,B.SilkS
 
+    - name: Generate Schematic File
+      run: |
+        kicad-cli sch export pdf redroid_go.kicad_sch -o output/redroid_go_schematic-$GITHUB_REF_NAME.pdf
+
     - name: Upload Gerber and Drill Files
       uses: actions/upload-artifact@v4
       with:
@@ -57,8 +61,16 @@ jobs:
         name: Rendered-PCB-Images
         path: output/renders
 
+    - name: Upload Schematic
+      uses: actions/upload-artifact@v4
+      with:
+        name: Schematic
+        path: output/redroid_go_schematic-$GITHUB_REF_NAME.pdf
+
     - name: Release
       uses: softprops/action-gh-release@v2
       if: github.ref_type == 'tag'
       with:
-        files: gerbers.zip
+        files: |
+          gerbers.zip
+          output/redroid_go_schematic-$GITHUB_REF_NAME.pdf
