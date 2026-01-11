@@ -83,23 +83,23 @@ By following this order you minimize risk: if something fails, you know exactly 
  - After all soldering: clean the entire board thoroughly with IPA (especially button pads) to remove flux residue — this prevents future button contact issues. Let it dry before powering.
 
 **Test Points summary**
-| Test Point |               Function / Description              |               Expected Value / Use Case              |         Typical Measurement Conditions        |
-|:----------:|:-------------------------------------------------:|:----------------------------------------------------:|:---------------------------------------------:|
-| TP1        | 3.3V output from the main buck converter          | ≈ 3.3 V (stable when powered on)                     | Power switch ON, USB or battery connected     |
-| TP2        | Vin to the buck converter (input voltage)         | ≈ 3.7–5.0 V (from battery or USB after diode/switch) | Power applied, before buck conversion         |
-| TP3        | MENU button signal                                | Pulled high → ~3.3 V idle, drops to 0 V when pressed | Check continuity or voltage change on press   |
-| TP4        | VOLUME button signal                              | Pulled high → ~3.3 V idle, drops to 0 V when pressed | Check continuity or voltage change on press   |
-| TP5        | X-axis                                            | ~0–3.3 V (analog, 0 V idle)                          | Check continuity or voltage change on press   |
-| TP6        | Y-axis                                            | ~0–3.3 V (analog, 0 V idle)                          | Check continuity or voltage change on press   |
-| TP7        | SELECT button signal                              | Pulled high → ~3.3 V idle, drops to 0 V when pressed | Check continuity or voltage change on press   |
-| TP8        | START button signal                               | Pulled high → ~3.3 V idle, drops to 0 V when pressed | Check continuity or voltage change on press   |
-| TP9        | B button signal                                   | Pulled high → ~3.3 V idle, drops to 0 V when pressed | Check continuity or voltage change on press   |
-| TP10       | A button signal                                   | Pulled high → ~3.3 V idle, drops to 0 V when pressed | Check continuity or voltage change on press   |
-| TP11       | GND (ground reference)                            | 0 V reference                                        | Use as negative probe reference for all tests |
-| TP12       | GND (additional ground reference)                 | 0 V reference                                        | Extra convenient ground pad                   |
-| TP13       | VBAT (battery voltage)                            | ≈ 3.7–4.2 V (typical LiPo range)                     | Battery connected, power switch OFF or ON     |
-| TP14       | VUSB / VBUS (USB 5V input)                        | ≈ 4.8–5.2 V                                          | USB cable plugged into charger/PC             |
-| TP15       | 3.3V output from LDO (for CH340 serial converter) | ≈ 3.3 V (stable when USB powered)                    | USB connected (before main buck/power switch) |
+| Test Point |               Function / Description              |               Expected Value / Use Case              |         Typical Measurement Conditions            |
+|:----------:|:-------------------------------------------------:|:----------------------------------------------------:|:-------------------------------------------------:|
+| TP1        | 3.3V output from the main buck converter          | ≈ 3.3 V (stable when powered on)                     | Power switch ON, USB or battery connected         |
+| TP2        | Vin to the buck converter (input voltage)         | ≈ 3.7–5.0 V (from battery or USB after diode/switch) | Power applied, before buck conversion, after fuse |
+| TP3        | MENU button signal                                | Pulled high → ~3.3 V idle, drops to 0 V when pressed | Check continuity or voltage change on press       |
+| TP4        | VOLUME button signal                              | Pulled high → ~3.3 V idle, drops to 0 V when pressed | Check continuity or voltage change on press       |
+| TP5        | X-axis                                            | ~0–3.3 V (analog, 0 V idle)                          | Check continuity or voltage change on press       |
+| TP6        | Y-axis                                            | ~0–3.3 V (analog, 0 V idle)                          | Check continuity or voltage change on press       |
+| TP7        | SELECT button signal                              | Pulled high → ~3.3 V idle, drops to 0 V when pressed | Check continuity or voltage change on press       |
+| TP8        | START button signal                               | Pulled high → ~3.3 V idle, drops to 0 V when pressed | Check continuity or voltage change on press       |
+| TP9        | B button signal                                   | Pulled high → ~3.3 V idle, drops to 0 V when pressed | Check continuity or voltage change on press       |
+| TP10       | A button signal                                   | Pulled high → ~3.3 V idle, drops to 0 V when pressed | Check continuity or voltage change on press       |
+| TP11       | GND (ground reference)                            | 0 V reference                                        | Use as negative probe reference for all tests     |
+| TP12       | GND (additional ground reference)                 | 0 V reference                                        | Extra convenient ground pad                       |
+| TP13       | VBAT (battery voltage)                            | ≈ 3.7–4.2 V (typical LiPo range)                     | Battery connected, power switch OFF or ON         |
+| TP14       | VUSB / VBUS (USB 5V input)                        | ≈ 4.8–5.2 V                                          | USB cable plugged into charger/PC                 |
+| TP15       | 3.3V output from LDO (for CH340 serial converter) | ≈ 3.3 V (stable when USB powered)                    | USB connected (before main buck/power switch)     |
 
 ## 4. 3D Printing the Shell
 
