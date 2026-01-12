@@ -1,4 +1,5 @@
 # Hardware Fabrication
+<img width="964" height="1000" alt="image" src="https://github.com/user-attachments/assets/c1d60a4c-e20c-4b1a-9794-0d30412a038f" />
 
 Building a REDROID-GO requires ordering a custom PCB, soldering ~70 components, and 3D printing (or outsourcing) the case.  
 All design files are included in the repository (`pcb/` for KiCad, `case/` for FreeCAD) — Gerber & STL files are in the release assets for convenience.
