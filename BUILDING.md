@@ -4,6 +4,9 @@
 Building a REDROID-GO requires ordering a custom PCB, soldering ~70 components, and 3D printing (or outsourcing) the case.  
 All design files are included in the repository (`pcb/` for KiCad, `case/` for FreeCAD) — Gerber & STL files are in the release assets for convenience.
 
+**Estimated build time**  
+With all tools and parts ready + intermediate soldering skills → one (rainy) weekend.
+
 ## 1. Ordering the PCB
 
 Order the 2-layer PCB using the `gerber.zip` file from the latest release.
