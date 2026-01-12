@@ -78,7 +78,7 @@ By following this order you minimize risk: if something fails, you know exactly 
 
 **Extra practical tips:**
  - Use tweezers to place small components accurately.
- - Double-check orientation of polarized parts: ICs (notch/dot), diode D1, LEDs, etc. (resistors/capacitors have no polarity).
+ - Double-check orientation of polarized parts: ICs (notch/dot), diode D1, LEDs, etc. (capacitors used in the project and resistors have no polarity).
  - Solder one pin first, check alignment/flushness, then solder the remaining pins.
  - Tiny component labels are hard to read — use your smartphone camera zoomed in (macro mode helps a lot).
  - After all soldering: clean the entire board thoroughly with IPA (especially button pads) to remove flux residue — this prevents future button contact issues. Let it dry before powering.
@@ -164,6 +164,7 @@ The recommended acrylic panel (from the BOM) starts at **60 × 60 mm** and needs
 5. Secure the PCB with the **two screws** (highlighted in blue in section 5.6). Use **6mm** length screws.
 6. Double-check LED alignment, then **solder** the LED legs to the pads on the PCB.
 7. Trim excess LED legs with flush cutters.
+8. Connect the display.
 
 ### 5.5 Power Switch Modification
 Replacement Game Boy Color power switches often come with an adapter that is too tall for REDROID-GO.
