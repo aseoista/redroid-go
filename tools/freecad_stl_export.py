@@ -3,7 +3,10 @@
 # Created with the help of ChatGPT
 
 import os
-import FreeCAD
+try:
+    import FreeCAD
+except:
+    import freecad
 import Mesh
 
 in_file = 'case/redroid_go.FCStd'
@@ -12,13 +15,29 @@ out_dir = 'output/stl'
 os.makedirs(out_dir, exist_ok=True)
 doc = FreeCAD.openDocument(in_file)
 
-exported_count = 0
-for obj in doc.Objects:
-    print(obj.TypeId)
-    if obj.TypeId == "PartDesign::Body":
-        export_path = os.path.join(out_dir, f"{obj.Label}.stl")
-        Mesh.export([obj], export_path)
-        print(f"Exported {obj.Label} -> {export_path}")
-        exported_count += 1
+
+front_nolabels = [
+    doc.getObject('Body002'),
+]
+
+front_labels = front_nolabels.copy()
+front_labels += [
+    doc.getObject('Extrude'),
+    doc.getObject('Extrude001'),
+    doc.getObject('Extrude003'),
+    doc.getObject('Extrude004'),
+]
+
+back = [
+    doc.getObject('Body003'),
+]
+
+
+for obj, label in [(front_nolabels, 'front_nolabels'),
+                   (front_labels, 'front'),
+                   (back, 'back')]:
+    export_path = os.path.join(out_dir, f"{label}.stl")
+    Mesh.export(obj, export_path)
+    print(f"Exported {label} -> {export_path}")
 
 FreeCAD.closeDocument(doc.Name)
