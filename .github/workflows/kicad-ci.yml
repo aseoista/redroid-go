@@ -3,25 +3,28 @@ name: Generate KiCad Outputs
 on:
   push:
     branches:
-      - main  # Runs when pushing to the main branch
+      - master  # Runs when pushing to the default branch
     tags:
-      - '*'   # Runs when pushing a new tag
+      - '*'     # Runs when pushing a new tag
   pull_request:
     branches:
-      - main  # Runs when creating a pull request
+      - master  # Runs when creating a pull request
   workflow_dispatch: # Runs manually
+
+permissions:
+  contents: write  # Needed by the release step
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # Latest GA Ubuntu LTS runner image
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v7
 
     - name: Set up KiCad
       run: |
-        sudo add-apt-repository --yes ppa:kicad/kicad-9.0-releases
+        sudo add-apt-repository --yes ppa:kicad/kicad-10.0-releases
         sudo apt update
         sudo apt install --yes kicad
 
@@ -50,25 +53,25 @@ jobs:
         kicad-cli sch export pdf pcb/redroid_go.kicad_sch -o output/redroid_go_schematic-$GITHUB_REF_NAME.pdf
 
     - name: Upload Gerber and Drill Files
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: redroid_go-${{ github.ref_name }}
         path: output/gerbers
 
     - name: Upload Rendered PCB Images
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: Rendered-PCB-Images
         path: output/renders
 
     - name: Upload Schematic
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: Schematic
         path: output/redroid_go_schematic-*.pdf
 
     - name: Release
-      uses: softprops/action-gh-release@v2
+      uses: softprops/action-gh-release@v3
       if: github.ref_type == 'tag'
       with:
         files: |

@@ -3,25 +3,28 @@ name: Generate FreeCAD Outputs
 on:
   push:
     branches:
-      - main  # Runs when pushing to the main branch
+      - master  # Runs when pushing to the default branch
     tags:
-      - '*'   # Runs when pushing a new tag
+      - '*'     # Runs when pushing a new tag
   pull_request:
     branches:
-      - main  # Runs when creating a pull request
+      - master  # Runs when creating a pull request
   workflow_dispatch: # Runs manually
+
+permissions:
+  contents: write  # Needed by the release step
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04  # Latest GA Ubuntu LTS runner image
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v3
+      uses: actions/checkout@v7
 
     - name: Set up FreeCAD
       run: |
-        sudo add-apt-repository ppa:freecad-maintainers/freecad-stable
+        sudo add-apt-repository --yes ppa:freecad-maintainers/freecad-stable
         sudo apt update
         sudo apt install --yes freecad
     
@@ -31,13 +34,13 @@ jobs:
         zip -r case.zip output/stl
     
     - name: Upload STL Files
-      uses: actions/upload-artifact@v4
+      uses: actions/upload-artifact@v7
       with:
         name: redroid_go-${{ github.ref_name }}
         path: output/stl
 
     - name: Release
-      uses: softprops/action-gh-release@v2
+      uses: softprops/action-gh-release@v3
       if: github.ref_type == 'tag'
       with:
         files: case.zip
