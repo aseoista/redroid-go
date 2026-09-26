@@ -9925,6 +9925,12 @@
 		(uuid "365da758-e908-46d0-87db-cd63bc2e6be0")
 	)
 	(junction
+		(at 279.4 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38241026-8294-4163-8dea-225407d7940f")
+	)
+	(junction
 		(at 127 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9935,12 +9941,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3c16ca13-fb82-49e0-88ca-03fdd0d8c35d")
-	)
-	(junction
-		(at 279.4 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "418c4ba9-e03a-4ccc-a578-7e9ac29d7fe0")
 	)
 	(junction
 		(at 330.2 71.12)
@@ -10826,7 +10826,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 45.72) (xy 281.94 45.72)
+			(xy 276.86 45.72) (xy 279.4 45.72)
 		)
 		(stroke
 			(width 0)
@@ -11146,16 +11146,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 45.72) (xy 279.4 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3121666a-4af5-4fef-8f4e-824b2d539a2c")
-	)
-	(wire
-		(pts
 			(xy 370.84 97.79) (xy 370.84 93.98)
 		)
 		(stroke
@@ -11353,16 +11343,6 @@
 			(type default)
 		)
 		(uuid "3ddca3a7-908b-4e38-b915-4fc960943d21")
-	)
-	(wire
-		(pts
-			(xy 279.4 26.67) (xy 279.4 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e186e71-2be3-432b-80b2-802f0ded8663")
 	)
 	(wire
 		(pts
@@ -11716,6 +11696,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 40.64) (xy 279.4 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ca66e66-37e6-4507-9c8b-b6503bcf8e73")
+	)
+	(wire
+		(pts
 			(xy 119.38 227.33) (xy 123.19 227.33)
 		)
 		(stroke
@@ -11963,16 +11953,6 @@
 			(type default)
 		)
 		(uuid "5ba5dbe4-f16a-4d06-b575-5eedb28724ae")
-	)
-	(wire
-		(pts
-			(xy 279.4 40.64) (xy 279.4 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5df2b78d-951b-4b48-b6c7-e35090c148b7")
 	)
 	(wire
 		(pts
@@ -13886,6 +13866,16 @@
 	)
 	(wire
 		(pts
+			(xy 279.4 45.72) (xy 281.94 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb8ca10-c305-4199-8936-e72575511a92")
+	)
+	(wire
+		(pts
 			(xy 109.22 135.89) (xy 109.22 144.78)
 		)
 		(stroke
@@ -14043,6 +14033,16 @@
 			(type default)
 		)
 		(uuid "e40119b6-5c58-4d7a-9a00-63e054b0bbee")
+	)
+	(wire
+		(pts
+			(xy 279.4 26.67) (xy 279.4 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4d61205-6fc1-4183-ad6e-373b00bf5547")
 	)
 	(wire
 		(pts
@@ -22992,7 +22992,6 @@
 	(symbol
 		(lib_id "Simulation_SPICE:PMOS")
 		(at 276.86 35.56 0)
-		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23002,7 +23001,7 @@
 		(dnp no)
 		(uuid "9386be4d-bf22-4299-95c2-3881a586dc0f")
 		(property "Reference" "Q2"
-			(at 283.21 36.8301 0)
+			(at 283.21 34.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23013,7 +23012,7 @@
 			)
 		)
 		(property "Value" "PMOS"
-			(at 283.21 34.2901 0)
+			(at 283.21 36.8299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23024,7 +23023,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 281.94 38.1 0)
+			(at 281.94 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23035,7 +23034,7 @@
 			)
 		)
 		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 276.86 22.86 0)
+			(at 276.86 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23057,7 +23056,7 @@
 			)
 		)
 		(property "Sim.Device" "PMOS"
-			(at 276.86 18.415 0)
+			(at 276.86 52.705 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23068,7 +23067,7 @@
 			)
 		)
 		(property "Sim.Type" "VDMOS"
-			(at 276.86 16.51 0)
+			(at 276.86 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23079,7 +23078,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 276.86 20.32 0)
+			(at 276.86 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
