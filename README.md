@@ -1,6 +1,9 @@
 
 ![logo](https://github.com/user-attachments/assets/940dbb1f-c628-4089-b30e-78433d526763)
 
+> [!WARNING]
+> In every commit and release before [0a4a438](https://github.com/aseoista/redroid-go/commit/0a4a438) (including **v1.0.2**), transistor **Q2** was connected in reverse. You should **build the device from the _master_ branch**, where this is fixed, until a new release is issued.
+
 REDROID-GO is an open-source, custom-designed handheld gaming console inspired by the original ODROID-GO. This project enhances the original (discontinued) design with modern features, while maintaining as much as possible software compatibility.
 
 | <img width="338" height="530" alt="image" src="https://github.com/user-attachments/assets/98186a5a-dee7-4de5-96a9-1daa555ce65f" /> | <img width="390" height="530" alt="redroid_go_front" src="https://github.com/user-attachments/assets/8ff2602d-4b23-446b-a254-f02d86409650" /> | <img width="390" height="530" alt="redroid_go_bottom" src="https://github.com/user-attachments/assets/2bca3361-def3-498c-9aa0-8ef3de1df3ef" /> |
